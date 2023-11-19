@@ -46,4 +46,4 @@ const moveImageToLeft_2_2 = () => {
 };
 
 const content_2_2 = `
-<img class="st-image" src="public/Screenshot_4.png">`;
+<img class="st-image" src="assets/Screenshot_4.png">`;

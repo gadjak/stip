@@ -8,7 +8,7 @@ const taskButton_3 = createSubButton("Завдання", renderTaskCondition_3);
 
 
 const renderResult_3 = () => {
-  const content = getContent_3('public/1.jpg', '1 картинка');
+  const content = getContent_3('assets/1.jpg', '1 картинка');
   setContent(content);
 };
 const resultButton_3 = createSubButton("Результат", renderResult_3);

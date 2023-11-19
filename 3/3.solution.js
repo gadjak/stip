@@ -7,7 +7,7 @@ const onNext_3 = () => {
     nextIndex = currentImage + 1;
   }
   const content = getContent_3(
-    `public/${nextIndex}.jpg`,
+    `assets/${nextIndex}.jpg`,
     `${nextIndex} картинка`
   );
   setContent(content);
@@ -22,7 +22,7 @@ const onPrev_3 = () => {
     nextIndex = currentImage - 1;
   }
   const content = getContent_3(
-    `public/${nextIndex}.jpg`,
+    `assets/${nextIndex}.jpg`,
     `${nextIndex} картинка`
   );
   setContent(content);

@@ -1,0 +1,35 @@
+.t4-form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.t4-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.t4-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.t4-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.t4-form button:hover {
+    background-color: #45a049;
+}
+
+.t4-form .error {
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

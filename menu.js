@@ -13,14 +13,15 @@ const LabButtons = (labNum) => {
       return SecondLabButtons;
     case "3":
       return ThirdLabButtons;
+    case "4":
+      return LabButtons4;
+    case "5":
+      return LabButtons5;
     default:
       break;
   }
 };
 
-const render = (jsx) => {
-  rootNode.innerHTML = jsx;
-};
 
 const onClickMenuItem = (event) => {
   const target = event.target;

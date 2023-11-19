@@ -60,6 +60,7 @@ nav li:hover{
     color:#312d2d;
     border:none;
     font-size:1.1em;
+    min-width: 150px;
 }
 .sub-button:hover{
     background:rgb(247, 168, 42);

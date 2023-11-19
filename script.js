@@ -1,5 +1,9 @@
 const rootNode = document.querySelector("#root");
 
+const render = (jsx) => {
+  rootNode.innerHTML = jsx;
+};
+
 const createContentContainer = (html) =>
   `<div class="contentContainer">${html}</div>`;
 const setContent = (content, type = "inner") => {

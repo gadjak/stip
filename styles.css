@@ -23,6 +23,9 @@ header{
 nav{
     padding: 0px;
 }
+ul{
+    list-style-type: none;
+}
 nav ul{
     margin: 30px;
     list-style-type: none;

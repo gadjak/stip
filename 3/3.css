@@ -1,0 +1,17 @@
+.tt{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.controls-3{
+ 
+    display: flex;
+    justify-content: space-evenly;
+    gap:10px;
+    align-self: center;
+}
+.controls-3 p{
+   display: flex;
+   align-items: center;
+}

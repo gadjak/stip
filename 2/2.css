@@ -1,0 +1,38 @@
+.st-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.st-menu ul{
+    list-style-type: none;
+    text-decoration: none;
+    display: none;
+}
+.st-menu ul li{
+    padding: 10px;
+    margin: 5px;
+}
+.st-menu li{
+    border-radius: 8px;
+    cursor: pointer;
+    background: rgb(211, 135, 14);
+    color:black;
+}
+.st-menu p{
+    user-select: none;
+    padding: 10px;
+}
+
+.st-menu li:hover{
+    background:rgb(247, 168, 42);
+}
+
+.st-image{
+        position: absolute;
+        top: 400px;
+        left: 100%; /* Початкове положення зображення за межами екрану */
+        transform: translate(-50%, -50%);
+        transition: left 2s ease-out; /* Анімація зміни положення наліво протягом 2 секунд */
+}

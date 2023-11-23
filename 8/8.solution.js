@@ -23,6 +23,20 @@ const getContent_8 = () => {
   
     <!ELEMENT position (#PCDATA)>
     <!ELEMENT department (#PCDATA)>
+
+    <!ATTLIST employee employeeID ID #REQUIRED>
+    <!ATTLIST address addressID ID #REQUIRED>
+    <!ATTLIST phone phoneID ID #REQUIRED>
+    <!ATTLIST position positionID ID #REQUIRED>
+    <!ATTLIST department departmentID ID #REQUIRED>
+
+    1. employee: ID єлемента, що представляє окремого співробітника, і містить інші елементи, які деталізують особисту інформацію про нього.
+
+    2. address: ID єлемента, який містить адресу, і сам складається з інших елементів, що деталізують поштову адресу.
+
+    2. phone: ID єлемента, який містить номери телефонів (домашній та мобільний).
+
+    4. position, department: ID єлементів, що містять інформацію про посаду та відділ співробітника.
   ]>
   `;
 };

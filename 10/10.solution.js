@@ -46,7 +46,6 @@ function openXml_10_2(){
 }
 
 function replaceNumericalValues(document) {
-  // Словник для заміни цифрових значень
   var numericalValues = {
     "0": "нуль",
     "1": "один",
@@ -57,23 +56,67 @@ function replaceNumericalValues(document) {
     "6": "шість",
     "7": "сім",
     "8": "вісім",
-    "9": "дев'ять"
-    // Додайте інші значення за потребою
+    "9": "дев'ять",
+    "10": "десять",
+    "11": "одинадцять",
+    "12": "дванадцять",
+    "13": "тринадцять",
+    "14": "чотирнадцять",
+    "15": "п'ятнадцять",
+    "16": "шістнадцять",
+    "17": "сімнадцять",
+    "18": "вісімнадцять",
+    "19": "дев'ятнадцять",
+    "20": "двадцять",
+    "30": "тридцять",
+    "40": "сорок",
+    "50": "п'ятдесят",
+    "60": "шістдесят",
+    "70": "сімдесят",
+    "80": "вісімдесят",
+    "90": "дев'яносто",
+    "100": "сто",
+    "200": "двісті",
+    "300": "триста",
+    "400": "чотириста",
+    "500": "п'ятсот",
+    "600": "шістсот",
+    "700": "сімсот",
+    "800": "вісімсот",
+    "900": "дев'ятсот",
   };
 
-  // Отримання всіх елементів з текстовим вмістом в документі
   var textNodes = document.evaluate('//text()', document, null, XPathResult.UNORDERED_NODE_SNAPSHOT_TYPE, null);
 
   for (var i = 0; i < textNodes.snapshotLength; i++) {
     var textNode = textNodes.snapshotItem(i);
+    var words = textNode.nodeValue.split(/\b(\d+)\b/);
 
-    // Заміна цифрових значень словесними еквівалентами
-    for (var key in numericalValues) {
-      var regex = new RegExp('\\b' + key + '\\b', 'g');
-      textNode.nodeValue = textNode.nodeValue.replace(regex, numericalValues[key]);
+    for (var j = 0; j < words.length; j++) {
+      var word = words[j];
+      if (/^\d+$/.test(word)) {
+        // Якщо слово є цілим числом, замінити його словесним еквівалентом
+        var number = parseInt(word, 10);
+        if (number in numericalValues) {
+          words[j] = numericalValues[number.toString()];
+        }else if(word.length == 2){
+          console.log()
+          words[j] = numericalValues[word[0] + '0'] + ' ' + numericalValues[word[1]];
+        }else if(word.length == 3){
+          if(word[0] !== '0'){
+            words[j] = numericalValues[word[0] + '00'] + ' ' + numericalValues[word[1] + '0'] + ' ' + numericalValues[word[2]];
+          }else{
+            words[j] = 'нуль ' + numericalValues[word[1] + '0'] + ' ' + numericalValues[word[2]];
+          }
+        }
+      }
     }
+
+    textNode.nodeValue = words.join('');
   }
 }
+
+
 
 function openXml_10_3(){
   var xhr = new XMLHttpRequest();

@@ -19,6 +19,14 @@ const LabButtons = (labNum) => {
       return LabButtons5;
     case "6":
       return LabButtons6;
+    case "7":
+      return LabButtons7;
+    case "8":
+      return LabButtons8;
+    case "9":
+      return LabButtons9;
+    case "0":
+      return LabButtons10;
     default:
       break;
   }

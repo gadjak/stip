@@ -1,0 +1,19 @@
+#xmlContainer {
+    margin-top: 20px;
+}
+
+employee {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+}
+
+employee > * {
+    margin-bottom: 18px;
+}
+
+address, phone {
+    margin-left: 20px;
+}

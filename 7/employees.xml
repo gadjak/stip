@@ -1,0 +1,212 @@
+<employees>
+    <employee>
+        <lastName>Іванов</lastName>
+        <firstName>Олег</firstName>
+        <middleName>Петрович</middleName>
+        <address>
+            <index>12345</index>
+            <settlementType>місто</settlementType>
+            <region>Київська</region>
+            <district>Печерський</district>
+            <city>Київ</city>
+            <street>Велика Васильківська</street>
+            <house>10</house>
+            <apartment>15</apartment>
+        </address>
+        <phone>
+            <home>044-123-45-67</home>
+            <mobile>067-987-65-43</mobile>
+        </phone>
+        <position>Менеджер</position>
+        <department>Відділ продажів</department>
+    </employee>
+    <employee>
+        <lastName>Петров</lastName>
+        <firstName>Андрій</firstName>
+        <middleName>Олександрович</middleName>
+        <address>
+            <index>54321</index>
+            <settlementType>місто</settlementType>
+            <region>Львівська</region>
+            <district>Галицький</district>
+            <city>Львів</city>
+            <street>Вулиця Шевченка</street>
+            <house>25</house>
+            <apartment>8</apartment>
+        </address>
+        <phone>
+            <home>032-222-33-44</home>
+            <mobile>068-876-54-32</mobile>
+        </phone>
+        <position>Інженер</position>
+        <department>Технічний відділ</department>
+    </employee>
+    <employee>
+    <lastName>Сидоров</lastName>
+    <firstName>Ірина</firstName>
+    <middleName>Василівна</middleName>
+    <address>
+        <index>67890</index>
+        <settlementType>селище</settlementType>
+        <region>Одеська</region>
+        <district>Приморський</district>
+        <city>Одеса</city>
+        <street>Фонтанська дорога</street>
+        <house>5</house>
+        <apartment>21</apartment>
+    </address>
+    <phone>
+        <home>048-111-22-33</home>
+        <mobile>066-555-77-88</mobile>
+    </phone>
+    <position>Аналітик</position>
+    <department>Фінансовий відділ</department>
+</employee>
+<employee>
+    <lastName>Коваленко</lastName>
+    <firstName>Максим</firstName>
+    <middleName>Ігорович</middleName>
+    <address>
+        <index>98765</index>
+        <settlementType>село</settlementType>
+        <region>Харківська</region>
+        <district>Шевченківський</district>
+        <city>Харків</city>
+        <street>Вулиця Пушкінська</street>
+        <house>17</house>
+        <apartment>3</apartment>
+    </address>
+    <phone>
+        <home>057-333-44-55</home>
+        <mobile>095-987-65-43</mobile>
+    </phone>
+    <position>Програміст</position>
+    <department>IT-відділ</department>
+</employee>
+<employee>
+    <lastName>Козлов</lastName>
+    <firstName>Анна</firstName>
+    <middleName>Михайлівна</middleName>
+    <address>
+        <index>54321</index>
+        <settlementType>місто</settlementType>
+        <region>Дніпропетровська</region>
+        <district>Жовтневий</district>
+        <city>Дніпро</city>
+        <street>Проспект Карла Маркса</street>
+        <house>30</house>
+        <apartment>12</apartment>
+    </address>
+    <phone>
+        <home>056-123-45-67</home>
+        <mobile>093-876-54-32</mobile>
+    </phone>
+    <position>Дизайнер</position>
+    <department>Маркетинговий відділ</department>
+</employee>
+<employee>
+    <lastName>Павлов</lastName>
+    <firstName>Артем</firstName>
+    <middleName>Сергійович</middleName>
+    <address>
+        <index>11111</index>
+        <settlementType>село</settlementType>
+        <region>Чернігівська</region>
+        <district>Носівський</district>
+        <city>Носівка</city>
+        <street>Вулиця Гагаріна</street>
+        <house>8</house>
+        <apartment>5</apartment>
+    </address>
+    <phone>
+        <home>046-555-66-77</home>
+        <mobile>099-111-22-33</mobile>
+    </phone>
+    <position>Юрист</position>
+    <department>Юридичний відділ</department>
+</employee>
+<employee>
+    <lastName>Шевченко</lastName>
+    <firstName>Тетяна</firstName>
+    <middleName>Олексіївна</middleName>
+    <address>
+        <index>87654</index>
+        <settlementType>місто</settlementType>
+        <region>Запорізька</region>
+        <district>Вознесенівський</district>
+        <city>Запоріжжя</city>
+        <street>Проспект Соборний</street>
+        <house>22</house>
+        <apartment>7</apartment>
+    </address>
+    <phone>
+        <home>061-987-65-43</home>
+        <mobile>066-222-33-44</mobile>
+    </phone>
+    <position>HR-спеціаліст</position>
+    <department>Відділ кадрів</department>
+</employee>
+<employee>
+    <lastName>Мельник</lastName>
+    <firstName>Ігор</firstName>
+    <middleName>Віталійович</middleName>
+    <address>
+        <index>98765</index>
+        <settlementType>місто</settlementType>
+        <region>Львівська</region>
+        <district>Шевченківський</district>
+        <city>Львів</city>
+        <street>Вулиця Франка</street>
+        <house>15</house>
+        <apartment>3</apartment>
+    </address>
+    <phone>
+        <home>032-333-44-55</home>
+        <mobile>067-555-66-77</mobile>
+    </phone>
+    <position>Тестувальник</position>
+    <department>QA-відділ</department>
+</employee>
+<employee>
+    <lastName>Кравчук</lastName>
+    <firstName>Марія</firstName>
+    <middleName>Анатоліївна</middleName>
+    <address>
+        <index>34567</index>
+        <settlementType>місто</settlementType>
+        <region>Харківська</region>
+        <district>Основ'янський</district>
+        <city>Харків</city>
+        <street>Вулиця Пушкінська</street>
+        <house>18</house>
+        <apartment>4</apartment>
+    </address>
+    <phone>
+        <home>057-111-22-33</home>
+        <mobile>093-444-55-66</mobile>
+    </phone>
+    <position>Маркетолог</position>
+    <department>Маркетинговий відділ</department>
+</employee>
+<employee>
+    <lastName>Григоренко</lastName>
+    <firstName>Олексій</firstName>
+    <middleName>Сергійович</middleName>
+    <address>
+        <index>23456</index>
+        <settlementType>селище</settlementType>
+        <region>Донецька</region>
+        <district>Будівельний</district>
+        <city>Дружківка</city>
+        <street>Вулиця Героїв Чорнобиля</street>
+        <house>12</house>
+        <apartment>6</apartment>
+    </address>
+    <phone>
+        <home>062-555-66-77</home>
+        <mobile>066-777-88-99</mobile>
+    </phone>
+    <position>Архітектор</position>
+    <department>Архітектурний відділ</department>
+</employee>
+</employees>
